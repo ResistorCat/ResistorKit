@@ -1,0 +1,17 @@
+[project]
+name = "resistorkit"
+version = "0.1.0"
+description = "A collection of utilities and tools for various projects."
+readme = "README.md"
+authors = [
+    { name = "Francisco Arenas", email = "francis.arenasv@uc.cl" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+resistorkit = "resistorkit:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
